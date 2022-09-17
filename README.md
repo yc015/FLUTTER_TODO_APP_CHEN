@@ -17,7 +17,8 @@ Yida Chen
     - This app has been tested on Chrome platform
 4. To add a todo item, enter your todo in the bottom input box and click the red plus button on the right. 
 5. The added new todo item will be displayed under the green "All TODO Items" title.
-6. To search for a todo item, type in your keyword in the top input box. The todo item with matched keyword will show up in the list. The search is not case-sensitive.
+6. To delete a todo item, click the red trash bin button on the right-most of your todo item.
+7. To search for a todo item, type in your keyword in the top input box. The todo item with matched keyword will show up in the list. The search is not case-sensitive.
 
 # References:
 The creation of this TODO app follow the instructions and code examples from this tutorial:  
