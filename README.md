@@ -1,16 +1,27 @@
-# todo_app_chen
+Yida Chen
 
-A new Flutter project.
+# Content
 
-## Getting Started
+- lib/main.dart: The main file of our application
+- lib/constants/colors.dart: Color object with pre-defined colors that are used to decorate widgets inside app  
+- lib/model/todo.dart: Model object for todo items. It is used to store the data, such as id and todo info, of a todo item  
+- lib/screens/home.dart: Visual layout and the control logic of the todo app
+- lib/widgets/todo_widgets.dart: Visual layout and the control logic of the todo widget
 
-This project is a starting point for a Flutter application.
+# Get Started
 
-A few resources to get you started if this is your first Flutter project:
+1. Install the Flutter from [https://docs.flutter.dev/get-started/install](https://docs.flutter.dev/get-started/install)
+2. Configure the Flutter on your code editor
+3. Start the app on the emulator or the physical devices from your editor
+    - For the Visual Studio Code users, you can install the Flutter plugin and select a test device from the bottom tool bar. To start the testing, go to the Run menu at the top tool bar and click *Start Debugging*
+    - This app has been tested on Chrome platform
+4. To add a todo item, enter your todo in the bottom input box and click the red plus button on the right. 
+5. The added new todo item will be displayed under the green "All TODO Items" title.
+6. To search for a todo item, type in your keyword in the top input box. The todo item with matched keyword will show up in the list. The search is not case-sensitive.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# References:
+The creation of this TODO app follow the instructions and code examples from this tutorial:  
+[1] "Flutter ToDo App Tutorial for Beginners," Pradip Debnath, [https://www.youtube.com/watch?v=K4P5DZ9TRns](https://www.youtube.com/watch?v=K4P5DZ9TRns)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Reflection:
+Compared with the CSS + JS + HTML and Node.JS + Mongodb, Flutter is a more uniform platform for developing cross-platform application. Everything, from the visual layout to the control logic, are coded in the dart language, making the resulting app more easier to manage. Moreover, we don't need to worry about the cross-platform deployment. The same code can generate apps that work on different devices (mobile or desktop) with all kinds of system (Windows, Android, iOS, etc.). I think the cross-platform compatibility is the biggest advantage of Flutter over other available tools. 
